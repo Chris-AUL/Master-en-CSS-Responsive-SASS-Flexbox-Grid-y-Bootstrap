@@ -8,17 +8,24 @@
 </head>
 
 <body>
-    <h1>Curso: Máster en CSS</h1>
+    <h1 id="titulo">Curso: Máster en CSS</h1>
     <h2>Tutor: Víctor Robles WEB</h2>
-    <ul>
+    <ul id="menu">
         <li><a href="#">Inicio</a></li>
-        <li><a href="#">Temario</a></li>
+        <li><a href="#">Temario</a>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">LESS</a></li>
+            </ul>
+        </li>
         <li><a href="#">Reseñas</a></li>
         <li><a href="#">Contacto</a></li>
     </ul>
 
     <div id="descripcion">
-        <p>
+        <h2>Descripción del curso</h2>
+        <p class="parrafo parrafo1">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laboriosam dolores molestias rem neque
             voluptates illum accusamus consequuntur optio iusto expedita asperiores, vero possimus architecto error
             doloribus, nobis non modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, porro
@@ -36,6 +43,30 @@
             voluptatem saepe cum fugiat repellat impedit earum quo, ipsum, dolor quod dolorum laboriosam, et expedita
             nesciunt maxime perferendis cumque quis.
         </p>
+        <p class="parrafo parrafo3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati laboriosam dolores molestias rem neque
+            voluptates illum accusamus consequuntur optio iusto expedita asperiores, vero possimus architecto error
+            doloribus, nobis non modi. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Expedita, porro
+            laboriosam alias dolorum natus magnam, dolor fuga provident facilis quibusdam sequi enim reiciendis vel quos
+            quod libero odit sint. Quasi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque dignissimos
+            voluptatem saepe cum fugiat repellat impedit earum quo, ipsum, dolor quod dolorum laboriosam, et expedita
+            nesciunt maxime perferendis cumque quis.
+        </p>
+    </div>
+
+    <div id="usuario">
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre">
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" placeholder="Escribe tu apellido">
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+    <div id="saludo">
+        <h1>Hey! Estoy aprendiendo CSS</h1>
     </div>
 
     <footer>
