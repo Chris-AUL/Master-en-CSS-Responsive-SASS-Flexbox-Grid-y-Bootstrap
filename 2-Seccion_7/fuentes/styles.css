@@ -1,0 +1,36 @@
+/* Propiedad de CSS3: crear fuentes personalizadas */
+@font-face {
+    font-family: FredokaFontCustom;
+    src: url(fonts/Fredoka/static/Fredoka-Regular.ttf);
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-family: "Strait", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    /* COLORES */
+    /* Colores del sistema */
+    color: RebeccaPurple;
+    /* Colores hexadecimales */
+    color: #9f7f13;
+    /* Colores RGB */
+    color: rgb(74, 52, 219);
+    /* Colores RGBA */
+    color: rgba(52, 219, 99, 0.2);
+}
+
+h3 {
+    font-family: FredokaFontCustom, "Comic Sans MS", cursive, sans-serif;
+    font-size: 35px;
+    font-weight: lighter;
+    color: YellowGreen;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
