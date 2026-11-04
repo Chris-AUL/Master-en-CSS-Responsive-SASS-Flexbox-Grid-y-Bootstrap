@@ -1,0 +1,57 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li {
+    font-size: 20px;
+}
+
+ul li:first-child {
+    color: yellow;
+    font-weight: bold;
+}
+
+ul li:nth-child(2) {
+    color: orange;
+    font-weight: bold;
+}
+
+ul li:last-child {
+    color: green;
+    font-weight: bold;
+}
+
+#mi-enlace {
+    font-size: 30px;
+    color: rgb(228, 92, 19);
+}
+
+#mi-enlace:link {
+    color: rgb(19, 228, 92);
+}
+
+#mi-enlace:visited {
+    color: rgb(228, 19, 92);
+}
+
+#mi-enlace:hover {
+    color: rgb(92, 19, 228);
+}
+
+#mi-enlace:active {
+    color: rgb(228, 197, 19);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#mi-enlace:focus {
+    color: rgb(19, 92, 228);
+}
+
+input[type="text"] {
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input[type="text"]:focus {
+    border: 2px dashed rgb(19, 92, 228);
+}

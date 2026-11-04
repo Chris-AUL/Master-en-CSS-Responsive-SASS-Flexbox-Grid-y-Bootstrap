@@ -1,0 +1,68 @@
+#boton {
+    display: block;
+    padding: 20px;
+    background-color: rgb(19, 228, 92);
+    color: white;
+    width: 180px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: none;
+    border: 5px solid rgb(10, 149, 6);
+    transition: border 500ms, background 3s, border-radius 1s;
+}
+
+#boton:hover {
+    border-radius: 15px;
+    background: orangered;
+    border: 5px solid rgb(228, 19, 92);
+}
+
+#caja {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(33, 203, 219);
+    color: white;
+    border: 5px solid rgb(73, 89, 73);
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 250px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: desplazamiento;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes desplazamiento {
+    0% {
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+
+    50% {
+        margin-left: 1200px;
+        transform: rotate(360deg);
+        border-radius: 100%;
+    }
+
+    75% {
+        background-color: rgb(228, 19, 92);
+    }
+
+    100% {
+        margin-left: 0px;
+        transform: rotate(0deg);
+    }
+}
+
+/* @keyframes desplazamiento {
+    from {
+        margin-left: 0px;
+    }
+
+    to {
+        margin-left: 1200px;
+    }
+} */
